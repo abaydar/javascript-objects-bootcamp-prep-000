@@ -1,4 +1,4 @@
 var playlist = {NoDoubt: "Spiderwebs"};
-function updatePlaylist(obj, key, value){return Object.assign({}, obj, {[key]: value})}
+function updatePlaylist(playlist, artistName, songTitle){return Object.assign({}, playlist, {[key]: value})}
 function removeFromPlaylist(playlist, artistName)
 
